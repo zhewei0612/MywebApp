@@ -41,3 +41,14 @@ body {
 .black.active {
   background-color: #333;
 }
+
+.finger {
+  position: absolute;
+  width: 50px;
+  height: 100px; /* 根據手指圖片的實際尺寸調整 */
+  background-image: url('index-finger.png'); /* 手指圖片的路徑 */
+  background-size: cover;
+  display: none;
+  transition: opacity 0.5s;
+}
+
